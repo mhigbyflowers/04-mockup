@@ -50,12 +50,19 @@ align-items: center;;
 .tie-box{
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+ flex-wrap: wrap;
+ background: yellow;
 }
 .tie-box__tie{
   text-align: center;
+  width: calc(100% / 9 );
+
+/*border: 1px black solid;*/
 }
 
+.tie-box__tie img{
+  width: 100%;
+}
 .products{
   display: flex;
   justify-content: space-around;
