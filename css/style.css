@@ -10,10 +10,11 @@ body{
   margin: 0 auto;
 
 
+
 }
 .top-bar{
+  background: #ff7e3d;
   font-size: 11px;
-  background: #ff5c00;
   display: flex;
   align-content:flex-end;
   justify-content: flex-start;
@@ -100,7 +101,7 @@ background: #f4f4f4;
 .products{
   margin: 3rem 0 0 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 
 }
 .products__item{
@@ -123,18 +124,35 @@ background: #f4f4f4;
 
 .info{
 text-align: center;
-padding: 10rem;
+padding: 4rem 0 5rem 0;
+font-style: italic;
 
+}
+.info a {
+  font-style: normal;
 }
 .news{
   display: flex;
-  justify-content: space-around;
+
+flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;;
+
+
+
 }
 
 .news__item{
-  border: blue 1px solid;
-  width: 100%;
-  max-width: 10rem;
+
+width: calc(95% / 4);
+
+}
+.news__item p{
+margin-top: .3rem;
+  font-size: 13px;
+}
+.news__item h4{
+  margin-bottom: .2rem;
 }
 .news__item img{
   width: 100%;
