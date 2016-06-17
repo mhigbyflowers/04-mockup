@@ -4,6 +4,7 @@ body{
   margin: 0 auto;
   font-family:sans-serif;
 }
+ul{list-style: none;}
 .container{
   width: 100%;
   max-width: 60rem;
@@ -13,7 +14,7 @@ body{
 
 }
 .top-bar{
-  background: #ff7e3d;
+  background: #fa6938;
   font-size: 11px;
   display: flex;
   align-content:flex-end;
@@ -23,13 +24,14 @@ body{
 
 }
 
+
 .top-bar__item{
 color: white;
 padding: .3rem .5rem .3rem .5rem;
 
 }
 .free-shipping{
-  background: #db520e;
+  background: rgba(0,0,0,.28);
 padding: .3rem .5rem .3rem .5rem;
 margin: 0 1rem 0 10rem;
 border-radius: .3rem;
@@ -179,11 +181,39 @@ margin-top: .3rem;
 
 
 
+
+
+
 .bottom-bar{
-  /*align-content: flex-end;*/
-  background: red;
+font-size: 14px;
 display: flex;
+background: rgba(0,0,0,.1);
+
+
 }
 .bottom-list{
-border: blue 1px solid;
+
+}
+.bottom-list__item{
+  color: gray;
+  margin-left: -1rem;
+}
+.bottom-list__item-title{
+  text-align: left;
+  font-weight: bolder;
+  margin-bottom: .5rem;
+    color: black;
+}
+.contact-card{
+margin: 0 0 0 10rem;
+}
+.contact-card a {
+float: right;
+margin: 0 0 .5rem 0;
+background: blue;
+padding:8px 12px;
+border-radius: 3px;
+color: white;
+position: relative;
+bottom:3rem;
 }
