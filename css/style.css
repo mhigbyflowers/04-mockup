@@ -76,11 +76,16 @@ color: white;
   display: flex;
   justify-content: space-around;
  flex-wrap: wrap;
- background: yellow;
+align-content: center;
+background: #f4f4f4;
+
+
 }
 .tie-box__tie{
   text-align: center;
   width: calc(100% / 9 );
+  min-width:5rem;
+  max-width:30rem;
 
 /*border: 1px black solid;*/
 }
@@ -89,13 +94,14 @@ color: white;
   width: 100%;
 }
 .products{
+  margin: 3rem 0 0 0;
   display: flex;
   justify-content: space-around;
 
 }
 .products__item{
    position: relative;
- border: black 1px solid;
+
   width: 16rem;
 
 
