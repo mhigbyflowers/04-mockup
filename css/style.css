@@ -19,14 +19,14 @@ ul{list-style: none;}
   align-content:flex-end;
   justify-content: flex-start;
   flex-direction: row;
-  padding:.5rem 0 .5rem 0;
+  padding:.5rem 0;
 
 }
 
 
 .top-bar__item{
 color: white;
-padding: .3rem .5rem .3rem .5rem;
+padding: .3rem .5rem;
 
 }
 
@@ -98,6 +98,13 @@ border-radius: .2rem;
 .login{
   text-align: right;
   margin: 0 0 1rem 0;
+  text-transform: uppercase;
+  color:grey;
+  font-size: .3rem;
+
+}
+.login a{
+  text-decoration: none;
 }
 
 
@@ -159,11 +166,14 @@ max-width: 60rem;
 .products__item img{
   width: 100%;
 }
-
+.info-wrapper{
+  border-bottom: .2rem solid rgba(0,0,0,.1) ;
+}
 .info{
 text-align: center;
 padding: 4rem 0 5rem 0;
 font-style: italic;
+
 
 
 }
@@ -173,9 +183,10 @@ font-style: italic;
 .news{
   display: flex;
 
-flex-wrap: wrap;
+
   width: 100%;
-  justify-content: space-between;;
+  justify-content: space-around;
+  margin: 5rem 0 5rem 0;
 
 
 
@@ -184,6 +195,7 @@ flex-wrap: wrap;
 .news__item{
 
 width: calc(95% / 4);
+margin: 0 1rem 0 0;
 
 }
 .news__item p{
