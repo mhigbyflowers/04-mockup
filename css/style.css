@@ -50,7 +50,7 @@ color: white;
   box-shadow: 0px 6px 8px -3px rgba(0,0,0,0.75);
 }
 
-.nav-stuff {
+.nav-stuff{
   display: flex;
   justify-content: space-around;;
   /*padding:0 0rem 1rem 10rem;*/
@@ -103,6 +103,13 @@ border-radius: .2rem;
 
 
 
+.tie-box-wrapper {
+  /*display: flex;*/
+  justify-content: space-around;
+  text-align: center;
+  padding:0 0 3rem 0;
+  background: #f4f4f4;
+}
 
 .tie-box{
   display: flex;
@@ -126,6 +133,8 @@ max-width: 60rem;
 .tie-box__tie img{
   width: 100%;
 }
+
+
 .products{
   margin: 3rem 0 0 0;
   display: flex;
@@ -136,6 +145,7 @@ max-width: 60rem;
    position: relative;
 
   width: 16rem;
+
 
 
 }
@@ -210,11 +220,14 @@ margin-top: .3rem;
 
 
 
+.bottom-bar-wrapper{
 
+background: rgba(0,0,0,.1);
+}
 .bottom-bar{
 font-size: 14px;
 display: flex;
-background: rgba(0,0,0,.1);
+
 
 
 }
