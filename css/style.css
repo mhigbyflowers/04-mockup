@@ -257,7 +257,11 @@ display: flex;
     color: black;
 }
 .contact-card{
-margin: 0 0 0 10rem;
+width: 20rem;
+background: #a2afc0;
+padding:1rem 1rem;
+margin: 3rem 4rem 4rem 4rem;
+border-radius: 1rem;
 }
 .contact-card a {
 float: right;
