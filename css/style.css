@@ -4,7 +4,8 @@ body{
   margin: 0 auto;
   font-family:sans-serif;
 }
-ul{list-style: none;}
+ul{list-style: none;
+margin:none;}
 
 .container{
   width: 100%;
@@ -249,7 +250,7 @@ justify-content: space-around;
 }
 .bottom-list__item{
   color: gray;
-  margin-left: -1rem;
+  /*margin-left: -1rem;*/
 }
 .bottom-list__item-title{
   text-align: left;
@@ -260,12 +261,11 @@ justify-content: space-around;
 .contact-card{
 width: 20rem;
 background: rgb(163,176,193);
-padding: 1rem;
-margin: 3rem 4rem 4rem 4rem;
+padding: 1rem ;
+margin: 1rem 0 3rem 4rem;
 height: 10rem;
 border-radius: .3rem;
-max-width: 15rem;
-min-width: 15rem;
+
 }
 .contact-card a {
 float: right;
